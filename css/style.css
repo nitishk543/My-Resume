@@ -1,0 +1,275 @@
+/* Font import */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+
+/* Colors */
+:root {
+  --primary: #1a253f;
+  --dark: #151a33;
+  --secondary: #2b55cc;
+  --info: #4d79f6;
+  --ternary: #848db3;
+  --pure: #eff2f9;
+  --fade: #7081b9;
+  --mild: #8997bd;
+  --footer: #212a4a;
+  --black: #060b1b;
+  --twitter: #4ac7ec;
+  --dribble: #ff5da0;
+  --success: #1ecab8;
+  --danger: #f1646c;
+  --dark-blue: #28365f;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: rgb(190, 162, 162);
+}
+
+.button {
+  display: block;
+  width: 115px;
+  height: 48px;
+  background: #4e9caf;
+  border: 2px solid #4e9caf;
+  padding: 9px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+  text-decoration: none;
+  position: relative;
+  left: 1033px;
+  top: 30px;
+  transition-duration: 0.5s;
+}
+
+.button:hover {
+  border: 2px solid;
+  background-color: transparent;
+  color: black;
+  transition: 0.5s;
+}
+header h1 {
+  position: relative;
+  top: -18px;
+  left: 200px;
+  width: 315px;
+  height: 48px;
+  background: transparent;
+  border: 2px solid black;
+  padding: 6px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.container {
+  padding: 25px 200px;
+}
+
+.top-container {
+  width: 100%;
+  height: 30vh;
+  background: var(--primary);
+  padding: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  line-height: 1;
+}
+
+.top-container h1 {
+  font-size: 35px;
+  padding-bottom: 5px;
+  color: white;
+  font-weight: 500;
+}
+
+.top-container h2 {
+  font-size: 22px;
+  padding-bottom: 10px;
+  color: rgb(45, 163, 157);
+  font-weight: 500;
+}
+
+.top-container p {
+  color: rgb(228, 201, 201);
+}
+
+.middle-container {
+  width: 100%;
+  height: 27vh;
+  background: rgb(12, 8, 20);
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  color: rgb(228, 201, 201);
+}
+.middle-container .for-margin {
+  margin-right: 400px;
+}
+.for-margin1 {
+  margin-right: 15px;
+}
+.middle-container a {
+  text-decoration: none;
+  color: rgb(228, 201, 201);
+}
+.img-position1 {
+  position: relative;
+  right: 2px;
+  width: 25px;
+  height: 25px;
+}
+.img-position2 {
+  position: relative;
+  right: 5px;
+  width: 35px;
+  height: 25px;
+}
+/*************** bottom-container with left and right container***************/
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  background: var(--pure);
+}
+.left-container {
+  width: 55%;
+  padding: 30px;
+}
+.work-exp,
+.project {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.education {
+  width: 65%;
+  margin-bottom: 30px;
+}
+.education em {
+  color: rgb(45, 163, 157);
+}
+.one-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.work-exp h3,
+.project h3,
+.education h3,
+.technical-skills h3,
+.soft-skills h3,
+.personal-info h3,
+.hobbies h3,
+.languages h3 {
+  text-decoration: underline;
+  line-height: 2;
+  font-size: 25px;
+  color: rgb(45, 163, 157);
+}
+.education h4 {
+  font-size: 16px;
+}
+.education h5 {
+  font-size: 15px;
+  font-weight: 200;
+}
+.work-exp h4,
+.project h4 {
+  font-size: 20px;
+}
+.work-exp h5,
+.project h4 {
+  margin-bottom: 10px;
+}
+.work-exp h5,
+.project h5 {
+  font-weight: 200;
+  font-size: 18px;
+}
+.work-exp p,
+.project p {
+  margin-bottom: 5px;
+  color: rgb(22, 122, 117);
+}
+.work-exp li,
+.project li,
+.technical-skills p,
+.soft-skills li,
+.personal-info li,
+.hobbies li {
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.tasks,
+.project-desc {
+  margin-left: 20px;
+}
+.education h5 {
+  margin: 5px 0;
+}
+.education p {
+  margin-bottom: 10px;
+  color: rgb(22, 122, 117);
+}
+.right-container {
+  width: 45%;
+  padding: 30px;
+}
+.soft-skills1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.skill1 {
+  background: #e5fbb8;
+}
+.skill2 {
+  background: #fdf6f0;
+}
+.skill3 {
+  background: #f1ecc3;
+}
+.skill4 {
+  background: #ffeaca;
+}
+.skill5 {
+  background: #e6ddc6;
+}
+.skill6 {
+  background: #cdf0ea;
+}
+
+.personal-info1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.personal2 {
+  list-style: none;
+}
+.hobbynlanguage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.languages li {
+  list-style: none;
+}
+.languages p {
+  margin-top: 5px;
+}
